@@ -1,7 +1,11 @@
 # eight_ball_app
 
 ## Steps:
-* gem install ruby
+<!-- Install ruby -->
+* ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+<!-- Install Rails -->
 * gem install rails -v 4.2.6
-* gem install postgresql
+<!-- Install postgreql -->
+* $ brew install postgresql
+<!-- update dependency -->
 * bundle install
