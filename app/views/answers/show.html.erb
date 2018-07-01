@@ -1,0 +1,6 @@
+<h3><%= @answer.name %></h3>
+<p><%=  @answer.description %></p>
+<%= link_to(edit_record_path) do %>
+<button>Edit</button>
+<% end %>
+<%= button_to "Delete", @answer, method: :delete %>
