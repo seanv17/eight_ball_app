@@ -2,10 +2,10 @@
 
 ## Steps:
 <!-- Install ruby -->
-* ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+* $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 <!-- Install Rails -->
-* gem install rails -v 4.2.6
+* $ gem install rails -v 4.2.6
 <!-- Install postgreql -->
 * $ brew install postgresql
 <!-- update dependency -->
-* bundle install
+* $ bundle install
