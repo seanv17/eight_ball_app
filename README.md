@@ -11,6 +11,8 @@
 ```$ bundle install```
 5. Run rails server
 ```$ rails s```
+6. Start postgresql server
+```$ pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start```
 6. Seed database
-```$ rake db:seed``` 
+```$ rake db:seed```
 7. Open app by going to localhost:3000 in browser
