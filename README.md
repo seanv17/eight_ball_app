@@ -3,11 +3,11 @@
 ## Steps:
 ### Install ruby
 * $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-### Install Rails
+### Install rails
 * $ gem install rails -v 4.2.6
-### Install postgreql
+### Install postgresql
 * $ brew install postgresql
-### Update dependency
+### Update dependencies
 * $ bundle install
 ### Run rails server
 * $ rails s
