@@ -7,12 +7,13 @@
 ```$ gem install rails -v 4.2.6```
 3. Install postgresql
 ```$ brew install postgresql```
-4. Update dependencies
+4. Clone/fork repo
+5. Update dependencies
 ```$ bundle install```
-5. Run rails server
+6. Run rails server
 ```$ rails s```
-6. Start postgresql server
+7. Start postgresql server
 ```$ pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start```
-6. Seed database
+8. Seed database
 ```$ rake db:seed```
-7. Open app by going to localhost:3000 in browser
+9. Open app by going to localhost:3000 in browser
