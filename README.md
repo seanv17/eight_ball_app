@@ -11,4 +11,6 @@
 ```$ bundle install```
 5. Run rails server
 ```$ rails s```
-6. Open app by going to localhost:3000 in browser
+6. Seed database
+```$ rake db:seed``` 
+7. Open app by going to localhost:3000 in browser
